@@ -1,0 +1,174 @@
+<html>
+
+<body>
+
+<div class="navbar"> 
+<h1>  SHOPIFY</h1>
+<div class="navItems">
+
+<a href="mainPage.html"> Home </a>
+<a href="shop.html"> Shop </a>
+<a href="about.html"> About Us </a>
+<a href="support.html"> Customer Support </a>
+<a href="profile.html"><details>Profile
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+	<summary>Log Out</summary>
+</details> </a>
+
+
+</div>
+<input type="search" placeholder="Search any item...">
+</div>
+
+
+
+
+
+<div class="first"> 
+  <div class="left">
+	<h1 style="text-align:center"> Shopify - Online Shopping </h1>
+	<p> Purchase anything you want, Shopify is on your doorstep, We are waiting for you to purchase itmes </p>
+     <div class="buttonBox">
+	<button> <a href="shop.html">  Explore shopping </a> </button>
+	    </div>
+	
+</div>
+<div class="right">
+<div class="mainImage">
+</div>
+<div>
+
+
+</body>
+<style> 
+*{margin: 0; padding: 0; box-sizing:border-box;}
+body{
+padding: 2vw;
+background: linear-gradient(168deg, #c9ffff, #55f5f5);
+}
+h1,p{
+  text-align:center;
+}
+.navbar {
+position: fixed;
+width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 3vw;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 100vw;
+background: white;
+}
+.navbar h1:hover {
+    font-family: system-ui;
+    font-size: 1.7vw;
+}
+.navbar h1 a {
+    text-decoration: none;
+color: black;
+}
+
+.navItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.navItems a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4vw;
+    font-family: cursive;
+}
+.navbar input {
+    padding: .4vw 1vw;
+}
+
+
+
+.first {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h1 {
+    font-size: 3vw;
+    font-family: fantasy;
+    letter-spacing: .2vw;
+    color: #1a1a1a;
+}
+
+.left p {
+    font-size: 1.3vw;
+    font-family: cursive;
+
+    margin: 2vw 4vw;
+    text-align: center;
+}
+
+.right{
+display: grid;
+place-items: center;
+}
+
+.buttonBox {
+display: flex;
+justify-content: center;
+align-items: center;
+    margin-top: 3vw;
+    gap: 3vw;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.navItems a:hover{
+border-bottom: .1vw solid black;
+background-color: #f1eae5;
+}
+
+.buttonBox button {
+    padding: .5vw 2vw;
+    border-radius: .6vw;
+    font-size: 1.5vw;
+    border: none;
+    font-family: system-ui;
+    box-shadow: 0px 0px 5px 0px black;
+    font-weight: 600;
+cursor: pointer;
+    color: #242424;
+
+}
+.buttonBox button a{
+text-decoration: none;
+  color: #242424;
+
+}
+
+.mainImage {
+    width: 43vw;
+    height: 24vw;
+    background: url(main.jpeg) no-repeat center / cover;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+</style>
+</html>
